@@ -1,0 +1,134 @@
+
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* metto in ordine alfabetico i vari elementi e classi */
+
+
+/*------------------ELEMENTI-------------------*/
+
+button{
+    font-size: large;
+}
+
+h1{
+    color: #0f0;
+    position: relative;
+    margin: 11% 0 1% 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*-------------------CLASSI-------------------*/
+
+.actions{
+    text-align: center;
+    position: relative;
+    padding-top: 5%;
+    
+    
+}
+
+.background-btn{
+    background-color: #0f0;
+    padding: 1%;
+    margin: 0 10% 2% 10%;
+}
+
+.background-content{
+    background-color: black;
+    width:90%;
+    height: auto;
+    position: absolute;
+    opacity: 0.5;
+    border-radius: 16px;
+    padding: 31%;
+    min-height: 650px;
+}
+
+.box{
+     align-items: center;
+     padding: 0 15%;
+  
+}
+
+.container{
+    padding: 3% 5%;
+    position: relative;
+}
+
+.img{ 
+    width: 100%;
+    height:auto;
+    min-width: 1222px;
+    min-height: 815px; 
+    position: absolute;
+}
+
+.logo{
+    position: absolute;
+    block-size: 30%;
+    margin: 5% 40% 0 37%;
+    min-width: 50px;
+    min-height: 70px;
+}
+
+.option{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5%;
+
+}
+.status{
+    width: 80%;
+    position: absolute;
+    margin: 0 9%;
+    text-align: start;
+    color:white;
+    line-height: 1.5;
+    font-size: larger;    
+
+
+}
+
+.status-charge_1{
+    background-color: hsl(45, 85%, 60%);
+    width: 40%;
+    height: 6%;
+    position: absolute;
+    border-radius: 4px;
+
+
+}
+
+.status-charge_2{
+    background-color: hsl(113, 73%, 49%);
+    width: 70%;
+    height: 6%;
+    position: absolute;
+    border-radius: 4px;
+    
+}
+
+.status-charge_3{
+    background-color: hsl(0, 80%, 56%);
+    width: 20%;
+    height: 6%;
+    position: absolute;
+    border-radius: 4px;
+    
+}
